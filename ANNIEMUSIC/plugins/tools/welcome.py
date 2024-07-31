@@ -74,7 +74,7 @@ def welcomepic(pic, user, chatname, id, uname):
 
 @app.on_message(filters.command("wel") & ~filters.private)
 async def auto_state(_, message):
-    usage = "**Usage:**\n⦿/wel [on|off]\n➤YUMI SPECIAL WELCOME.........."
+    usage = "**Usage:**\n⦿/wel [on|off]\n➤Inno SPECIAL WELCOME.........."
     if len(message.command) == 1:
         return await message.reply_text(usage)
     chat_id = message.chat.id
@@ -145,8 +145,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 ➻ Iᴅ ✧ {user.id}
 ➻ Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
 ➻ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs ✧ {count}
- 🇲 ᴀᴅᴇ 🇧ʏ 🇲ʀ  🇧ʀᴏᴋᴇɴ 
-▰▰▰▰▰▰▰▰▰▰▰▰▰**
+🇮𝐍ɴᴏᴄᴇɴ†  🇦ᴀ†ᴍᴀ ▰▰▰▰▰▰▰▰▰▰▰**
 **❅─────✧❅✦❅✧─────❅**
 """,
              reply_markup=InlineKeyboardMarkup([
