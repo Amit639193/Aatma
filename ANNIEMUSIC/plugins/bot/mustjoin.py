@@ -5,7 +5,7 @@ from ANNIEMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "KGF_ROCY"
+MUST_JOIN = "https://t.me/KGF_ROCY"
 #------------------------
 
 @app.on_message(filters.incoming & filters.private, group=-1)
